@@ -203,7 +203,8 @@ echo -n -e "\n"
 # 投稿に成功すると '1' が帰ってくる
 # echo "Curl result '1' means success."
 
-# 結果ファイルをZドライブに移動
+# 結果ファイル１の '\n\n- ' を削除して、Zドライブに移動
+sed -i -e 's/^\\n\\n//g' -e 's/^- //g' ${DIFF_RESULT_Z_FILE}
 mv ${DIFF_RESULT_Z_FILE} ${MODEL_FOLDER}done/
 
 echo "All done!"
