@@ -14,6 +14,7 @@
     - [2.5 実施しない内容](#25-実施しない内容)
     - [2.6 シェルスクリプト](#26-シェルスクリプト)
   - [3. スケジュール](#3-スケジュール)
+  - [4. ライセンス License](#4-ライセンス-license)
 
 <!-- /TOC -->
 
@@ -317,3 +318,8 @@
   30 11 * * 1 /home/vuls/CAcert/cacert-checkend.sh > /home/vuls/CAcert/cacert-checkend.log 2>&1
   00 15 * * 2 /home/vuls/model/model-teams+c.sh > /home/vuls/model/model.log 2>&1
   ```
+## 4. ライセンス License
+
+事情によりしばらく `NO LICENSE` といたしますので、`GitHub` の利用規約と著作権法が定める範囲を超えた利用・複製・再頒布などを一切禁止させていただきます。
+
+Due to circumstances, it will be `NO LICENSE` for a while, so I will prohibit any use, duplication, redistribution, etc. beyond the scope of the terms of service of` GitHub` and the copyright law.
